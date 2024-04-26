@@ -45,7 +45,7 @@ function App() {
           ref={passwordRef}
         />
         <button
-          onClick={copyPasswordToClipboard}
+          onClick={copyPasswordToClipboard, } 
           className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0  "
         >
           copy
