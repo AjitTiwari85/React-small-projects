@@ -21,6 +21,9 @@ function Explore() {
 
   return (
     <div className="container mx-auto px-4">
+      <div className="h-10" />
+      <input placeholder="search" />
+      <div className="h-10" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {products.map((product) => (
           <div key={product.id} className="h-full">
